@@ -16,7 +16,7 @@
     </parent>
     <groupId>com.tomgarber</groupId>
     <artifactId>sf5-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>sf5-pet-clinic</name>
     <description>sf5-pet-clinic</description>
     <properties>
@@ -48,7 +48,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/TomTheBeast/sf5-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>sf5-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
