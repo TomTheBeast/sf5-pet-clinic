@@ -20,12 +20,31 @@
     <name>sf5-pet-clinic</name>
     <description>sf5-pet-clinic</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
+        <maven.compilier.source>${java.version}</maven.compilier.source>
+        <maven.compilier.target>${java.version}</maven.compilier.target>
+        <jaxb.version>2.3.0</jaxb.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-core</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>${jaxb.version}</version>
         </dependency>
     </dependencies>
     <build>
